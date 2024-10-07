@@ -1,0 +1,282 @@
+/**General**/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    .debug {
+    border: 1px solid #ff0000;
+    }
+    
+    .flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .vflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+    }
+    
+    .row {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    
+    .padding {
+    padding: 10px 0;
+    }
+    
+    .margin {
+    margin-bottom: 20px;
+    }
+    
+    .content {
+    margin: 0 auto;
+    }
+    
+    h1 {
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    }
+    
+    .bgcolor-grey {
+    background-color: #F6F6F6;
+    
+    }
+    
+    /* Formattazione Testo */
+    
+    li {
+    list-style: none;
+    padding: 15px 20px;
+    color: white;
+    }
+    
+    
+    section p {
+    color: white;
+    font-size: 20px;
+    word-spacing: 4px;
+    padding-top: 10px;
+    }
+    
+    h2 {
+    font-size: 45px;
+    padding-bottom: 27px;
+    }
+    
+    header p {
+    line-height: 5px;
+    padding: 15px;
+    }
+    
+    
+    main p {
+    line-height: 1.5;
+    font-size: 18px;
+    
+    }
+    
+    /** Inizio Header**/
+    
+    .navigation-bar {
+    background-color: #255EE9;
+    }
+    
+    .bgimage {
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 659px;
+    }
+    
+    /* Bottoni */
+    
+    .nav-button {
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+    width: 70px;
+    border-radius: 30px;
+    padding: 8px;
+    }
+    
+    .button {
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    .button1 {
+    border-radius: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 0;
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    }
+    
+    .button2 {
+    border-radius: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 0;
+    width: 230px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #23272A;
+    color: white;
+    }
+    
+    .button3 {
+    border-radius: 50px;
+    background-color: #7289DA;
+    border: 0px;
+    font-size: 15px;
+    color: white;
+    margin-top: 32px;
+    }
+    
+    .gap {
+    gap: 15px;
+    }
+    
+    /* Fine Header */
+    
+    
+    /* Main */
+    
+    main div{
+    margin-top: 80px;
+    }
+    
+    .content {
+    max-width: 60%;
+    margin: 0% auto;
+    
+    }
+    
+    
+    section {
+    max-width: 60%;
+    margin: 0% auto;
+    }
+    
+    .margin-div {
+    border: 1px solid red;
+    margin: 80px 0;
+    }
+    
+    .image {
+    width: 70%;
+    }
+    
+    .image-star {
+    width: 20%;
+    }
+    
+    .place {
+    width: 40%;
+    height: 446px;
+    }
+    
+    .center {
+    text-align: center;
+    }
+    
+    .mark {
+    font-size: 20px;
+    }
+    
+    main {
+    margin-top: 100px;
+    }
+    
+    .end-padding {
+    padding-bottom: 100px;
+    }
+    
+    /* Footer */
+    
+    footer {
+    background-color: #23272A;
+    padding: 15px;
+    }
+    
+    .contenitore {
+    width: 70%;
+    margin: 0 auto;
+    }
+    
+    /* Flag */
+    
+    footer div .contenitore {
+    height: 100px;
+    }
+    
+    footer li {
+    color: #ffffff;
+    }
+    
+    .footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    
+    footer li:first-child {
+    color: #7289DA;
+    }
+    
+    footer span {
+    font-size: 20px;
+    }
+    
+    footer button {
+    border-radius: 50px;
+    background-color: #7289DA;
+    border: 0px;
+    font-size: 15px;
+    color: white;
+    width: 80px;
+    }
+    
+    .bottom-border {
+    border-bottom: 1px solid #F6F6F6;
+    }
+    
+    #end-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    }
+    
+    
+    .wave-1hkxOo{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: #F6F6F6; 
+    
+    }
+    
+    .reflex{
+    transform: scaley(-1);
+    
+    }
+    
+    #padding{
+    margin-top: -5px;
+    }
